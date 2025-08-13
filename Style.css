@@ -1,0 +1,118 @@
+.header{
+    background-image:url("img/banner-01.jpg");
+    background-size: cover;
+    height:80vh;
+    position:relative;
+    color: white; /* text visible on dark bg */
+  }
+.text-header{
+    max-width: 100%; /* responsive */
+    position: absolute;
+    left:30%;
+    transform: translateX(-40%); /* only center horizontally */
+    bottom: 200px; /* adjust how far from the bottom */
+    
+}
+
+
+.bgimg {
+    background-image: url(img/video-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    color: white; /* text visible on dark bg */
+    text-align: center;
+}
+
+.text-box {
+    position: absolute;
+    top: 70px; /* space from top of section */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bgimg img {
+    width: 700px;
+    height: 300px;
+    max-width: 100%; /* responsive */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* only center horizontally */
+    bottom: -120px; /* adjust how far from the bottom */
+    border-radius: 5px;
+}
+.badges-section {
+  margin-top: 150px; /* gap from video container */
+}
+
+.custom-badge {
+  background-color: #ffeee8; /* light peach */
+  border-radius: 10px;
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+  height: 80px;
+}
+
+.custom-badge .number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f4511e; /* orange */
+  margin-right: 15px;
+}
+
+.custom-badge .text {
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.custom-badge .circle {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  background-color: #f4511e; /* orange */
+  border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+  .custom-badge {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.contact-info{
+  background-image: url(img/contact-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+  color: white; /* text visible on dark bg */
+  text-align: center;
+}
+.contact-info .cardimg {
+    width: 600px;
+    height: 350px;
+    max-width: 100%; /* responsive */
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%); /* only center horizontally */
+    bottom: -180px; /* adjust how far from the bottom */
+    border-radius: 5px;
+}
+.contact-info .form {
+    width: 600px;
+    height: 350px;
+    max-width: 100%; /* responsive */
+    position: absolute;
+    left: 68%;
+    transform: translateX(-50%); /* only center horizontally */
+    bottom: -155px; /* adjust how far from the bottom */
+    border-radius: 5px;
+}
+
