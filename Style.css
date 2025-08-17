@@ -19,7 +19,7 @@
     background-image: url(img/video-bg.jpg);
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 70vh;
     position: relative;
     color: white; /* text visible on dark bg */
     text-align: center;
@@ -115,4 +115,33 @@
     bottom: -155px; /* adjust how far from the bottom */
     border-radius: 5px;
 }
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.playbutton {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+.play-btn {
+  background: rgba(0, 0, 0, 0.945);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
 
+.play-btn:hover {
+  background: rgba(242, 9, 9, 0.8);
+}
